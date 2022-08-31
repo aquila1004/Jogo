@@ -43,26 +43,6 @@ body {
 .cell.circle {
   cursor: not-allowed;
 }
-.cell:nth-child(1),
-.cell:nth-child(2),
-.cell:nth-child(3) {
-  border-top: none;
-}
-.cell:nth-child(1),
-.cell:nth-child(4),
-.cell:nth-child(7) {
-  border-left: none;
-}
-.cell:nth-child(7),
-.cell:nth-child(8),
-.cell:nth-child(9) {
-  border-bottom: none;
-}
-.cell:nth-child(3),
-.cell:nth-child(6),
-.cell:nth-child(9) {
-  border-right: none;
-}
 /* X */
 .cell.x::before,
 .cell.x::after,
@@ -133,4 +113,7 @@ body {
 }
 .show-winning-message {
   display: flex;
+}
+h1{
+    font-size: 3rem;
 }
